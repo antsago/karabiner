@@ -1,0 +1,23 @@
+left-handed-rules.json
+  878f74f087304212 487-528
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "04540d03997e48383ff7c71f46fa0a90f1864935",
+  "prompts": {
+    "878f74f087304212": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a04fe7d5-344c-4e0e-94d3-99ab7857e1c5",
+        "model": "default"
+      },
+      "human_author": "Antonio Sanchez Gomez <antonio.sanchez@archlet.ch>",
+      "messages": [],
+      "total_additions": 45,
+      "total_deletions": 0,
+      "accepted_lines": 44,
+      "overriden_lines": 0
+    }
+  }
+}
