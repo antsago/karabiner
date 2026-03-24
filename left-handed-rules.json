@@ -1,0 +1,59 @@
+{
+    "description": "Half-qwerty keyboard emulation for left-handed users",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "set_variable": {
+                        "name": "alt",
+                        "value": 1
+                    }
+                }
+            ],
+            "to_after_key_up": [
+                {
+                    "set_variable": {
+                        "name": "alt",
+                        "value": 0
+                    }
+                }
+            ],
+            "to_if_alone": [{ "key_code": "spacebar" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "alt",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "1",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "0" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "alt",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "0",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "1" }],
+            "type": "basic"
+        }
+    ]
+}
