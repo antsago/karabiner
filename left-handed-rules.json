@@ -78,10 +78,10 @@
                 }
             ],
             "from": {
-                "key_code": "1",
+                "key_code": "f",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "0" }],
+            "to": [{ "key_code": "j" }],
             "type": "basic"
         },
         {
@@ -93,10 +93,55 @@
                 }
             ],
             "from": {
-                "key_code": "0",
+                "key_code": "g",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "1" }],
+            "to": [{ "key_code": "h" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "alt",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "d",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "k" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "alt",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "s",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "l" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "alt",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "a",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "semicolon" }],
             "type": "basic"
         }
     ]
