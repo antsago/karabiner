@@ -346,6 +346,67 @@
             "to": [{ "key_code": "equal_sign" }],
             "type": "basic"
         },
+        // right-most column
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "h",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "open_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "n",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "quote" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "y",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "close_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "6",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "backslash" }],
+            "type": "basic"
+        },
         // NUMBERS MAPPING
         {
             "conditions": [
