@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "523fa39d97ca5f5489159b8fa3bc68ce75b7a58a",
+  "prompts": {
+    "878f74f087304212": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a04fe7d5-344c-4e0e-94d3-99ab7857e1c5",
+        "model": "default"
+      },
+      "human_author": "Antonio Sanchez Gomez <antonio.sanchez@archlet.ch>",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 0,
+      "accepted_lines": 21,
+      "overriden_lines": 1
+    }
+  }
+}
