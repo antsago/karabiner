@@ -271,6 +271,14 @@
             },
             "to": [{ "key_code": "delete_or_backspace" }],
             "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "caps_lock",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "return_or_enter" }],
+            "type": "basic"
         }
     ]
 }
