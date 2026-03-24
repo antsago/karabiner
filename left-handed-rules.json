@@ -1,6 +1,7 @@
 {
     "description": "Half-qwerty keyboard emulation for left-handed users",
     "manipulators": [
+        // spacebar
         {
             "conditions": [
                 {
@@ -69,6 +70,8 @@
             },
             "type": "basic"
         },
+        // LETTERS MAPPING
+        // home row
         {
             "conditions": [
                 {
@@ -144,6 +147,7 @@
             "to": [{ "key_code": "semicolon" }],
             "type": "basic"
         },
+        // top row
         {
             "conditions": [
                 {
@@ -219,6 +223,7 @@
             "to": [{ "key_code": "p" }],
             "type": "basic"
         },
+        // bottom row
         {
             "conditions": [
                 {
@@ -294,6 +299,7 @@
             "to": [{ "key_code": "slash" }],
             "type": "basic"
         },
+        // NUMBERS MAPPING
         {
             "conditions": [
                 {
@@ -369,6 +375,7 @@
             "to": [{ "key_code": "0" }],
             "type": "basic"
         },
+        // tab mapping
         {
             "conditions": [
                 {
@@ -392,6 +399,7 @@
             "to": [{ "key_code": "delete_or_backspace" }],
             "type": "basic"
         },
+        // caps lock mapping
         {
             "from": {
                 "key_code": "caps_lock",
