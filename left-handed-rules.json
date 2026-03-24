@@ -65,9 +65,6 @@
                 ],
                 "to_if_canceled": []
             },
-            "parameters": {
-                "basic.to_delayed_action_delay_milliseconds": 500
-            },
             "type": "basic"
         },
         // LETTERS MAPPING
@@ -254,6 +251,8 @@
             "to": [{ "key_code": "m" }],
             "type": "basic"
         },
+        // SYMBOLS MAPPING
+        // bottom row
         {
             "conditions": [
                 {
