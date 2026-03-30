@@ -63,7 +63,14 @@
                         }
                     }
                 ],
-                "to_if_canceled": []
+                "to_if_canceled": [
+                    {
+                        "set_variable": {
+                            "name": "space_waiting_second_tap",
+                            "value": 0
+                        }
+                    }
+                ]
             },
             "type": "basic"
         },
