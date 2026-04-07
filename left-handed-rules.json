@@ -454,6 +454,52 @@
                 }
             ],
             "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "8",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "3",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "right_hand",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
                 "key_code": "3",
                 "modifiers": { "optional": ["any"] }
             },
